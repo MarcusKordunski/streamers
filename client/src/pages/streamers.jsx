@@ -1,8 +1,7 @@
-import { Button } from "../components";
+import { Page } from "../components";
 
 export default function Properties() {
-
   return (
-    <Button value="Test" />
+    <Page title="Streamers" className="streamers" />
   );
 }
