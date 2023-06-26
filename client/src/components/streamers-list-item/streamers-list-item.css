@@ -1,0 +1,19 @@
+.streamer-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 270px;
+  height: 500px;
+  font-family: "OpenSans", sans-serif;
+  background-color: #eff0f1;
+  border-radius: 0.5em;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.streamer-list-item__image {
+  width: 135px;
+  height: 135px;
+  object-fit: cover;
+  border-radius: 50%;
+}

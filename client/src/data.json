@@ -1,0 +1,70 @@
+{
+    "streamers": [
+        {
+            "name": "Asmongold",
+            "platform": "Twitch",
+            "description": "Zack",
+            "id": 1
+        },
+        {
+            "name": "xQc",
+            "platform": "Twitch",
+            "description": "Felix",
+            "id": 2
+        },
+        {
+            "name": "Emiru",
+            "platform": "Twitch",
+            "description": "Chance",
+            "id": 3
+        },
+        {
+            "name": "BobRoss",
+            "platform": "Twitch",
+            "description": "Bob",
+            "id": 4
+        },
+        {
+            "name": "DrDisrespect",
+            "platform": "Youtube",
+            "description": "Herschel",
+            "id": 5
+        },
+        {
+            "name": "sodapoppin",
+            "platform": "Twitch",
+            "description": "Chance",
+            "id": 6
+        },
+        {
+            "name": "Loltyler1",
+            "platform": "Twitch",
+            "description": "Tyler",
+            "id": 7
+        },
+        {
+            "name": "Quin69",
+            "platform": "Twitch",
+            "description": "Quintin",
+            "id": 8
+        },
+        {
+            "name": "shroud",
+            "platform": "Twitch",
+            "description": "Michael",
+            "id": 9
+        },
+        {
+            "name": "Greekgodx",
+            "platform": "Twitch",
+            "description": "Dimitri",
+            "id": 10
+        },
+        {
+            "name": "Pokimane",
+            "platform": "Twitch",
+            "description": "Imane",
+            "id": 11
+        }
+    ]
+}
