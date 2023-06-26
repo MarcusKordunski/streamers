@@ -1,0 +1,24 @@
+.pagination {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0 30px 0;
+}
+
+.pagination__button-wrapper {
+  display: flex;
+  user-select: none;
+}
+
+.pagination__page-btn {
+  background: #bf2235;
+  color: #eff0f1;
+  border: none;
+}
+
+.pagination__page-btn:hover {
+  background: #dc3f53;
+}
+
+.pagination__page-btn.active {
+  background: #dc3f53;
+}

@@ -5,10 +5,14 @@
   padding: 20px;
   width: 270px;
   height: 500px;
+  color: #eff0f1;
   font-family: "OpenSans", sans-serif;
-  background-color: #eff0f1;
+  background-color: rgba(16 18 27 / 40%);
   border-radius: 0.5em;
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+  backdrop-filter: blur(20px);
 }
 
 .streamer-list-item__image {
@@ -16,4 +20,9 @@
   height: 135px;
   object-fit: cover;
   border-radius: 50%;
+}
+
+.streamer-list-item:hover {
+  transform: translateX(-10px) translateY(-10px);
+  box-shadow: rgba(240, 46, 170, 0.4) 25px 25px, rgba(240, 46, 170, 0.3) 25px 25px, rgba(240, 46, 170, 0.2) 35px 35px, rgba(240, 46, 170, 0.1) 45px 45px, rgba(240, 46, 170, 0.05) 45px 45px;
 }

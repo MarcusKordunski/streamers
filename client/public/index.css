@@ -9,7 +9,11 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(69, 86, 102, 1) 0%, rgba(34, 34, 34, 1) 40%);
+    background: radial-gradient(circle at 0% 80%, #bf2235 60%, transparent 60.1%),
+    radial-gradient(circle at 35% 160%, #4d8ad8 88%, transparent 88.1%),
+    radial-gradient(circle at 50% 70%, #bf2235 80%, transparent 80.1%),
+    radial-gradient(circle at 20% 45%, #242354 66%, transparent 66.1%),
+    radial-gradient(circle at 50% 50%, rgba(34, 34, 34, 1) 0%, rgba(34, 34, 34, 1) 100%);
 }
 
 * {

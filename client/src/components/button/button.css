@@ -2,25 +2,14 @@
   justify-content: center;
   display: flex;
   transition: 0.3s;
-  border: 1px solid #000;
   min-width: 41px;
   min-height: 37px;
   padding: 4px 7px;
-  background: #fff;
   cursor: pointer;
   font-size: 16px;
   font-family: "OpenSans";
   align-items: center;
-  color: #000;
   border-radius: 2px;
-}
-
-.button:hover {
-  background: var(--light-grey);
-}
-
-.button.active {
-  background: var(--light-grey);
 }
 
 .button:disabled {

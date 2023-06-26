@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Button } from "../index"
 
 import "./header.css";
+import logo from "./logo.svg";
 
 export default function Header({ title }) {
   useEffect(() => {
@@ -15,7 +16,7 @@ export default function Header({ title }) {
 
         <div className="header__content-left">
           <Link to="/" className="header__link">
-            <h2 className="header__logo">Logo</h2>
+            <img className="header__logo" src={logo} alt="Logo" />
           </Link>
           <h1 className="header__title">{title}</h1>
         </div>
