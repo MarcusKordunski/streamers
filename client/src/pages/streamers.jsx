@@ -1,9 +1,11 @@
-import { Page, StreamersListItem } from "../components";
+import { Page, StreamersList } from "../components";
+import data from "../data.json"
 
 export default function Properties() {
+  console.log(data)
   return (
     <Page title="Streamers" className="streamers" >
-      <StreamersListItem name="Asmongold" platform="Twitch" description="Zack" />
+      <StreamersList streamers={data.streamers} />
     </Page>
   );
 }

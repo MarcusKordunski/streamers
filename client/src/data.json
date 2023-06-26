@@ -8,7 +8,7 @@
         },
         {
             "name": "xQc",
-            "platform": "Twitch",
+            "platform": "Kick",
             "description": "Felix",
             "id": 2
         },
@@ -26,7 +26,7 @@
         },
         {
             "name": "DrDisrespect",
-            "platform": "Youtube",
+            "platform": "YouTube",
             "description": "Herschel",
             "id": 5
         },

@@ -1,0 +1,9 @@
+.streamers-list {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 40px 30px;
+  width: 850px;
+}
