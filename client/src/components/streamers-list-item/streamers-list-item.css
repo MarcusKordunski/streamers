@@ -2,11 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  justify-content: space-between;
+  padding: 20px 0 0 0;
   width: 270px;
   height: 500px;
   color: #eff0f1;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: rgba(16 18 27 / 40%);
   border-radius: 0.5em;
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
@@ -20,9 +21,35 @@
   height: 135px;
   object-fit: cover;
   border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 .streamer-list-item:hover {
   transform: translateX(-10px) translateY(-10px);
   box-shadow: rgba(240, 46, 170, 0.4) 25px 25px, rgba(240, 46, 170, 0.3) 25px 25px, rgba(240, 46, 170, 0.2) 35px 35px, rgba(240, 46, 170, 0.1) 45px 45px, rgba(240, 46, 170, 0.05) 45px 45px;
+}
+
+.streamer-list-item__button {
+  background-color: transparent;
+  color: #6f769f;
+  transition: 0.3s;
+  border-bottom: 2px transparent solid;
+  font-size: 18px;
+  height: 80px;
+  width: 100%;
+}
+
+.streamer-list-item__button:hover {
+  border-bottom: 2px white solid;
+  color: #f2f3f5;
+}
+
+.streamer-list-item__bottom-content {
+  display: flex;
+}
+
+.streamer-list-item__top-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

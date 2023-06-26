@@ -2,3 +2,8 @@
   src: url("./OpenSans-Regular.ttf") format("truetype");
   font-family: "OpenSans";
 }
+
+@font-face {
+  src: url("./Poppins-Regular.ttf") format("truetype");
+  font-family: "Poppins";
+}
