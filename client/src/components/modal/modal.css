@@ -1,0 +1,41 @@
+.modal__exit-button {
+  margin: 0 0 10px auto;
+  border: none;
+  background: none;
+  color: #b3bec9;
+  transition: 0.3s;
+}
+
+.modal__exit-button:hover {
+  color: white;
+}
+
+.modal {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  cursor: default;
+}
+
+.modal.active {
+  height: 100%;
+  opacity: 1;
+}
+
+.modal__modal-wrapper {
+  padding: 10px;
+  width: 50%;
+  border-radius: 1em;
+  margin: 20px auto;
+  background-color: #151925;
+  backdrop-filter: blur(20px);
+  color: #eff0f1;
+  font-family: "Poppins", sans-serif;
+}
