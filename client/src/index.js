@@ -2,13 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { HashRouter, Route, Routes } from "react-router-dom";
 
-import { Streamers } from "./pages";
+import { Streamers, Streamer } from "./pages";
 
 const App = () => (
   <React.StrictMode>
     <HashRouter>
       <Routes>
         <Route path="/" element={<Streamers />} />
+        <Route path="streamer/:id" element={<Streamer />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>

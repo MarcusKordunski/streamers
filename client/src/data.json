@@ -3,68 +3,68 @@
         {
             "name": "Asmongold",
             "platform": "Twitch",
-            "description": "Zack",
-            "id": 1
+            "description": "Asmongold, also known as ZackRawrr, is an American Twitch streamer, YouTuber, content creator, internet celebrity, who is recognized for his World of Warcraft gameplay and knowledge of the game, humorous commentary while playing various MMORPGs, and his ability to entertain and engage with his audience. \nAsmongold's content primarily focuses on World of Warcraft, but he has covered other video games and topics related to gaming culture. Asmongold is a co-founder and co-owner of the streaming, gaming, and content creation organization One True King, based in Austin, Texas. Asmongold is also a co-owner of Starforge Systems, a computer company specialized in selling prebuilt gaming PCs.",
+            "id": "1"
         },
         {
             "name": "xQc",
             "platform": "Kick",
             "description": "Felix",
-            "id": 2
+            "id": "2"
         },
         {
             "name": "Emiru",
             "platform": "Twitch",
             "description": "Chance",
-            "id": 3
+            "id": "3"
         },
         {
             "name": "BobRoss",
             "platform": "Twitch",
             "description": "Bob",
-            "id": 4
+            "id": "4"
         },
         {
             "name": "DrDisrespect",
             "platform": "YouTube",
             "description": "Herschel",
-            "id": 5
+            "id": "5"
         },
         {
             "name": "sodapoppin",
             "platform": "Twitch",
             "description": "Chance",
-            "id": 6
+            "id": "6"
         },
         {
             "name": "Loltyler1",
             "platform": "Twitch",
             "description": "Tyler",
-            "id": 7
+            "id": "7"
         },
         {
             "name": "Quin69",
             "platform": "Twitch",
             "description": "Quintin",
-            "id": 8
+            "id": "8"
         },
         {
             "name": "shroud",
             "platform": "Twitch",
             "description": "Michael",
-            "id": 9
+            "id": "9"
         },
         {
             "name": "Greekgodx",
             "platform": "Twitch",
             "description": "Dimitri",
-            "id": 10
+            "id": "10"
         },
         {
             "name": "Pokimane",
             "platform": "Twitch",
             "description": "Imane",
-            "id": 11
+            "id": "11"
         }
     ]
 }

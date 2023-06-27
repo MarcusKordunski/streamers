@@ -22,7 +22,7 @@ export default function Header({ title }) {
         </div>
 
         <div className="header__content-right">
-          {title === "Streamers" && <Button value="Add streamer" className="header__add-streamer-btn" />}
+          <Button value="Add streamer" className="header__add-streamer-btn" />
         </div>
 
       </div>
