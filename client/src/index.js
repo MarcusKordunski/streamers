@@ -9,7 +9,7 @@ const App = () => (
     <HashRouter>
       <Routes>
         <Route path="/" element={<Streamers />} />
-        <Route path="streamer/:id" element={<Streamer />} />
+        <Route path="/:id" element={<Streamer />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>

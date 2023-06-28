@@ -15,7 +15,7 @@ export default function StreamersListItem({
     <div className={`streamer-list-item ${smallCard ? "small" : ""}`}>
 
       <div className="streamer-list-item__top-content">
-        {!smallCard && <Link to={`/streamer/${id}`}>
+        {!smallCard && <Link to={`/${id}`}>
           <Button className="streamer-list-item__details" value="..." />
         </Link>}
         <img className={`streamer-list-item__image ${smallCard ? "small" : ""}`} src="https://staticc.sportskeeda.com/editor/2023/02/8d8d8-16775633289121.png" alt="Asmongold" />

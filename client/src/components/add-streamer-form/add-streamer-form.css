@@ -1,0 +1,15 @@
+.add-streamer-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 30px;
+}
+
+.add-streamer-form > * {
+  width: 100%;
+}
+
+.add-streamer-form__button {
+  width: 30%;
+}

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { Button, Modal } from "../index"
+import { Button, Modal, AddStreamerForm } from "../index"
 
 import "./header.css";
 import logo from "./logo.svg";
@@ -19,7 +19,10 @@ export default function Header({ title }) {
 
   return (
     <>
-      <Modal isOpen={isOpenModal} toggleModal={toggleModal} />
+      <Modal isOpen={isOpenModal} toggleModal={toggleModal}>
+        <AddStreamerForm />
+      </Modal>
+
       <header className="header">
         <div className="header__wrapper">
 
