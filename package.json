@@ -13,9 +13,13 @@
   },
   "scripts": {
     "install:client": "cd client && npm install",
-    "install": "npm install:client",
+    "install:server": "cd server && npm install",
+    "install": "npm install:client && npm install:server",
     "build:client": "cd client && npm build",
-    "start:client": "cd client && npm start"
+    "start:server": "cd server && yarn start",
+    "start:client": "cd client && npm start",
+    "db:migrate": "cd server && npm run db:migrate",
+    "db:seed": "cd server && npm run db:seed"
   },
   "eslintConfig": {
     "extends": [
