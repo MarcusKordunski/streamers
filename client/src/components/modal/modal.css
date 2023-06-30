@@ -2,12 +2,12 @@
   margin: 0 0 10px auto;
   border: none;
   background: none;
-  color: #b3bec9;
+  color: var(--btn);
   transition: 0.3s;
 }
 
 .modal__exit-button:hover {
-  color: white;
+  color: var(--btn-active);
 }
 
 .modal {
@@ -36,6 +36,6 @@
   margin: 20px auto;
   background-color: #151925;
   backdrop-filter: blur(20px);
-  color: #eff0f1;
+  color: var(--font);
   font-family: "Poppins", sans-serif;
 }

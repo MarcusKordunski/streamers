@@ -7,7 +7,7 @@
   padding: 20px 0 0 0;
   width: 270px;
   height: 500px;
-  color: #eff0f1;
+  color: var(--font);
   font-family: "Poppins", sans-serif;
   background-color: rgba(16 18 27 / 40%);
   border-radius: 14px;
@@ -31,7 +31,7 @@
 
 .streamer-list-item__button {
   background-color: transparent;
-  color: #6f769f;
+  color: var(--btn);
   transition: 0.3s;
   border-bottom: 2px transparent solid;
   font-size: 18px;
@@ -42,7 +42,7 @@
 .streamer-list-item__details {
   position: absolute;
   background-color: transparent;
-  color: #6f769f;
+  color: var(--btn);
   transition: 0.3s;
   font-size: 44px;
   width: 20px;
@@ -52,17 +52,17 @@
 }
 
 .streamer-list-item__details:hover {
-  color: #f2f3f5;
+  color: var(--btn-active);
 }
 
 .streamer-list-item__button:hover {
   border-bottom: 2px white solid;
-  color: #f2f3f5;
+  color: var(--btn-active);
 }
 
 .streamer-list-item__button.active {
   border-bottom: 2px white solid;
-  color: #f2f3f5;
+  color: var(--btn-active);
 }
 
 .streamer-list-item__bottom-content {

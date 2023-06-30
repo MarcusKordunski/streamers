@@ -1,8 +1,10 @@
 @import url("./fonts/index.css");
 
 :root {
-  --light-grey: #f1f3f6;
   --grey: #adb2b6;
+  --font: #eff0f1;
+  --btn: #6f769f;
+  --btn-active: #f2f3f5;
 }
 
 body {

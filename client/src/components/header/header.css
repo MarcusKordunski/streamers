@@ -46,7 +46,7 @@
 
 .header__add-streamer-btn {
   background-color: transparent;
-  color: #6d759e;
+  color: var(--btn);
   border: none;
   width: 150px;
   height: 80px;
@@ -57,5 +57,5 @@
 
 .header__add-streamer-btn:hover {
   border-bottom: 2px white solid;
-  color: #f2f3f5;
+  color: var(--btn-active);
 }

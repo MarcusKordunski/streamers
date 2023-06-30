@@ -8,7 +8,7 @@ module.exports = {
         platform: "Twitch",
         description:
           "Asmongold, also known as ZackRawrr, is an American Twitch streamer, YouTuber, content creator, internet celebrity, who is recognized for his World of Warcraft gameplay and knowledge of the game, humorous commentary while playing various MMORPGs, and his ability to entertain and engage with his audience. \nAsmongold's content primarily focuses on World of Warcraft, but he has covered other video games and topics related to gaming culture. Asmongold is a co-founder and co-owner of the streaming, gaming, and content creation organization One True King, based in Austin, Texas. Asmongold is also a co-owner of Starforge Systems, a computer company specialized in selling prebuilt gaming PCs.",
-        upvotes: 0,
+        upvotes: 1,
         downvotes: 0,
         created_at: new Date(),
         updated_at: new Date(),

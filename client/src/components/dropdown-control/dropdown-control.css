@@ -14,7 +14,7 @@
 }
 
 .dropdown-control__select_placeholder {
-  color: grey;
+  color: var(--grey);
 }
 
 .dropdown-control__select:focus {
