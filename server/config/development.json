@@ -1,4 +1,5 @@
 {
+  "port": 3500,
   "databaseUrl": "sqlite://db/main.db",
   "backendUrl": "http://localhost:3500",
   "frontendUrl": "http://localhost:3000"
