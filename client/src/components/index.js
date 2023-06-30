@@ -11,3 +11,4 @@ export { default as DropdownControl } from "./dropdown-control/dropdown-control.
 export { default as TextField } from "./text-field/text-field.jsx";
 export { default as TextArea } from "./text-area/text-area.jsx";
 export { default as AddStreamerForm } from "./add-streamer-form/add-streamer-form.jsx";
+export { default as LoadingSpinner } from "./loading-spinner/loading-spinner.jsx";

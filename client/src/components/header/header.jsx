@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import { Button, Modal, AddStreamerForm } from "../index"
@@ -6,21 +6,15 @@ import { Button, Modal, AddStreamerForm } from "../index"
 import "./header.css";
 import logo from "./logo.svg";
 
-export default function Header({ title }) {
-  const [isOpenModal, setIsOpenModal] = useState(false);
-
+export default function Header({ title, handleAddStreamer, isOpenModal, toggleModal }) {
   useEffect(() => {
     window.document.title = title;
   }, [title]);
 
-  const toggleModal = () => {
-    setIsOpenModal((prev) => !prev);
-  };
-
   return (
     <>
-      <Modal isOpen={isOpenModal} toggleModal={toggleModal}>
-        <AddStreamerForm />
+      <Modal isOpenModal={isOpenModal} toggleModal={toggleModal}>
+        <AddStreamerForm handleAddStreamer={handleAddStreamer} toggleModal={toggleModal} />
       </Modal>
 
       <header className="header">

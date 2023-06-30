@@ -19,6 +19,10 @@ body {
     background-position: 0% 4%;
 }
 
+body::-webkit-scrollbar {
+  width: 0;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;

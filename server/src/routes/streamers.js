@@ -44,7 +44,7 @@ const createNewStreamer = async (req, res) => {
 const updateStreamerVote = async (req, res) => {
   try {
     const { id } = req.params;
-    const { vote, active } = req.body;
+    const { vote } = req.body;
 
     const streamer = await Streamer.findByPk(id);
 
@@ -52,14 +52,14 @@ const updateStreamerVote = async (req, res) => {
       return res.status(404).json({ error: "Streamer not found" });
     }
 
-    if (vote === "upvote" && active === "upvote") {
+    if (vote === "upvote" && streamer.upvotes >= 1) {
       streamer.upvotes -= 1;
-    } else if (vote === "downvote" && active === "downvote") {
+    } else if (vote === "downvote" && streamer.downvotes >= 1) {
       streamer.downvotes -= 1;
-    } else if (vote === "upvote" && active === "downvote") {
+    } else if (vote === "upvote" && streamer.downvotes >= 1) {
       streamer.upvotes += 1;
       streamer.downvotes -= 1;
-    } else if (vote === "downvote" && active === "upvote") {
+    } else if (vote === "downvote" && streamer.upvotes >= 1) {
       streamer.downvotes += 1;
       streamer.upvotes -= 1;
     } else if (vote === "upvote") {

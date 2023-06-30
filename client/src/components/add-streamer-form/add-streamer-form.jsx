@@ -9,7 +9,7 @@ import {
 
 import "./add-streamer-form.css";
 
-export default function AddStreamerForm({ handleAddStreamer }) {
+export default function AddStreamerForm({ handleAddStreamer, toggleModal }) {
   const platforms = ["Twitch", "Kick", "YouTube", "TikTok", "Rumble"];
 
   const [newStreamerForm, setNewStreamerForm] = useState({
@@ -28,6 +28,7 @@ export default function AddStreamerForm({ handleAddStreamer }) {
 
   const submitForm = () => {
     handleAddStreamer(newStreamerForm);
+    toggleModal();
   };
 
   return (

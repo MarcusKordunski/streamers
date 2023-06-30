@@ -31,6 +31,7 @@
   align-items: center;
   background-color: rgba(92, 96, 114, 0.274);
   height: initial;
+  min-width: 250px;
   min-height: 300px;
   border-radius: 2em;
   padding: 1em 1em 0 1em;
@@ -38,6 +39,10 @@
 
 .streamer-list-item.small:hover{
   transform: none;
+}
+
+.streamer-list-item__platform.small{
+  margin-bottom: 30px;
 }
 
 .streamer-list-item__image.small {

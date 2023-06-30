@@ -7,12 +7,13 @@ export default function StreamerInfo({
   description,
   platform,
   upvotes,
-  downvotes
+  downvotes,
+  handleVote
 }) {
   return (
     <div className="streamer-info">
-      <StreamersListItem smallCard={true} id={id} name={name} platform={platform} upvotes={upvotes} downvotes={downvotes} />
-      <p className="streamer-info__right-content" style={{ whiteSpace: "pre-line" }}>{description}</p>
+      <StreamersListItem smallCard={true} id={id} name={name} platform={platform} upvotes={upvotes} downvotes={downvotes} handleVote={handleVote} />
+      <p className="streamer-info__right-content" style={{ whiteSpace: "pre-line" }}>{name !== undefined && description !== undefined && platform !== undefined ? description : "Error 404 \n There is no such streamer in our database 🤔"}</p>
     </div >
   );
 }

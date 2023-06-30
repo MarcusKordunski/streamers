@@ -2,15 +2,10 @@ import { Button } from "../index.js";
 
 import "./modal.css";
 
-export default function Modal({ isOpen, toggleModal, children }) {
+export default function Modal({ toggleModal, isOpenModal, children }) {
   return (
     <aside
-      className={isOpen ? "modal active" : "modal"}
-      onClick={(e) => {
-        if (e.target.className === "modal active") {
-          toggleModal();
-        }
-      }}
+      className={isOpenModal ? "modal active" : "modal"}
     >
       <div className="modal__modal-wrapper">
         <Button
