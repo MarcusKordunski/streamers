@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 import { useFetch } from "../hooks";
 
@@ -5,6 +6,7 @@ import { Page, StreamerInfo, LoadingSpinner } from "../components";
 
 export default function Streamer() {
   const { id } = useParams();
+  const [isOpenModal, setIsOpenModal] = useState(false);
   const [streamer, isStreamerLoading, fetchStreamerError] = useFetch({ url: `http://localhost:3500/api/streamers/${id}` });
 
   async function handleVote(vote, id) {
@@ -23,7 +25,11 @@ export default function Streamer() {
     }
   }
 
-  async function handleAddStreamer(streamerData) {
+  const toggleModal = () => {
+    setIsOpenModal((prev) => !prev);
+  };
+
+  async function handleAddStreamer(streamerData, toggleModal) {
     try {
       const response = await fetch("http://localhost:3500/api/streamers/", {
         method: "POST",
@@ -41,12 +47,13 @@ export default function Streamer() {
     }
   }
 
+
   if (fetchStreamerError) {
     console.error(fetchStreamerError)
   }
   if (isStreamerLoading) return <LoadingSpinner />;
   return (
-    <Page className="streamer" title={streamer && streamer.name} handleAddStreamer={handleAddStreamer}>
+    <Page className="streamer" title={streamer && streamer.name} handleAddStreamer={handleAddStreamer} isOpenModal={isOpenModal} toggleModal={toggleModal}>
       <StreamerInfo {...streamer} handleVote={handleVote} />
     </Page >
   );

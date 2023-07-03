@@ -89,7 +89,7 @@ export default function Streamers() {
   }
   if (isStreamerLoading) return <LoadingSpinner />;
   return (
-    <Page title="Streamers" className="streamers" handleAddStreamer={handleAddStreamer} isOpenModal={isOpenModal} toggleModal={toggleModal} setIsOpenModal={setIsOpenModal}>
+    <Page title="Streamers" className="streamers" handleAddStreamer={handleAddStreamer} isOpenModal={isOpenModal} toggleModal={toggleModal}>
       <StreamersList streamers={chunks[page - 1]} handleVote={handleVote} />
       <Pagination
         pages={chunks.length}
