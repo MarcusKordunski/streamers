@@ -1,7 +1,7 @@
 # Streamers spotlight application 
 ### React app
 
-![streamers](https://github.com/MarcusKordunski/streamers/assets/95471509/48918e4f-2cc0-4506-8d4a-4b4ba3da360c)
+![streamers](https://github.com/MarcusKordunski/streamers/assets/95471509/bb35a225-2e7a-405c-81c4-b02ff4815f56)
 
 
 ## Getting Started
@@ -10,7 +10,7 @@ To download the project:
 git clone https://github.com/MarcusKordunski/streamers.git
 ```
 
-To install dependencies:
+To install dependencies for both client and server:
 ```
 npm run install
 ```
